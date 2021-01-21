@@ -1,0 +1,21 @@
+###############################################################################
+# Set default behavior to automatically normalize line endings.
+###############################################################################
+* text=auto
+
+# Force Unix line endings for most file formats (except binary files)
+*.js         text eol=lf
+*.md         text eol=lf
+*.yml        text eol=lf
+*.html       text eol=lf
+*.xml        text eol=lf
+*.json       text eol=lf
+
+.babelrc     text eol=lf
+.nycrc       text eol=lf
+
+*.png binary
+*.jpg binary
+
+# Linguist language overrides
+*.js linguist-vendored

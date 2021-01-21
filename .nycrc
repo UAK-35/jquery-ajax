@@ -1,0 +1,17 @@
+{
+  "require": [
+    "@babel/register",
+    "@babel/polyfill"
+  ],
+  "reporter": [
+    "lcov",
+    "json-summary"
+  ],
+  "sourceMap": false,
+  "instrument": false,
+  "exclude": [
+    "**/*.spec.js",
+    ".mocha*.js",
+    "**/test-assist/*.js"
+  ]
+}
